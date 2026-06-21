@@ -89,11 +89,11 @@ To address the problem of finding the fastest evacuation route through a post-la
 
 | Algorithm Paradigm | Handles Weighted Graph? | Guarantees Optimal Path? | Time Complexity | Suitable? |
 |---|---|---|---|---|
-| Sorting | No | No | O(n log n) | ❌ No |
-| Divide & Conquer | Partially | No | Varies | ❌ No |
-| Dynamic Programming (Bellman-Ford) | Yes | Yes | O(VE) | ⚠️ Slower |
-| Greedy (naïve) | Partially | No | O(E) | ❌ Not optimal |
-| **Graph — Dijkstra's Algorithm** | **Yes** | **Yes** | **O((V+E) log V)** | **✅ Best Choice** |
+| Sorting | No | No | O(n log n) |  No |
+| Divide & Conquer | Partially | No | Varies |  No |
+| Dynamic Programming (Bellman-Ford) | Yes | Yes | O(VE) |  Slower |
+| Greedy (naïve) | Partially | No | O(E) |  Not optimal |
+| **Graph — Dijkstra's Algorithm** | **Yes** | **Yes** | **O((V+E) log V)** | ** Best Choice** |
 
 ---
 
